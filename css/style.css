@@ -1,4 +1,29 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Logan Connors
+* Created on: mar 31 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h3 {
+  color: #007bff;
+}
+
+input[type="submit"] {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff0000;
+}
+
+.mdl-textfield__error {
+  color: red;
+}
